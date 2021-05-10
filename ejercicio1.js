@@ -17,7 +17,7 @@ var casa = {
 
 
 function comprobar(){
-    if(input.value == "alert(coche.precio + casa.precio)"){
+    if((input.value == "coche.precio + casa.precio")||("coche.precio+casa.precio")){
     loop = setInterval(function(){cambioDeColor()},250);
     body.innerHTML = '<div class="target">Lo has conseguido😍😎</div>';
     window.setTimeout(function() {
